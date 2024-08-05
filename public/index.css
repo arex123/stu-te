@@ -1,0 +1,125 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#blogbutton {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#blogbutton:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 30%;
+}
+
+.container-inner{
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  height: 70vh;
+}
+
+.section{
+  display: flex;
+  /* justify-content: space-between; */
+}
+.blog-show{
+
+  width: 70%;
+  /* background-color: rgb(251, 248, 249); */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.blog-show-inner{
+  width: 70%;
+}
+.collapsible {
+  margin: 20px;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+
+  width: 100%;
+  margin: 20px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-top: 0;
+
+}
+
+.authorid{
+  margin-top: 50px;
+  color: red;
+}
+.contentid{
+  margin-top: 50px;
+  color: gray;
+  margin-left: 50px;
+}
+
+.comment{
+  margin-top: 50px;
+}
+
+.commentInput{
+  height: 30px;
+}
+.commentsubmit{
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+}
+.commentsubmit:hover{
+  color: white;
+}
+.divcomm{
+  display: flex;
+  align-items: center;
+}
+
+.delccmt{
+  color: black;
+  background-color: red;
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+}
+.delccmt:hover{
+  color: white;
+  cursor: pointer;
+}
